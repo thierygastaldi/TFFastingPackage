@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TFFastingPackage'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Fasting package.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TFFastingPackage/**/*'
+  s.source_files = 'TFFastingPackage/Classes/**/*'
   
   s.swift_version = '3.0'
   

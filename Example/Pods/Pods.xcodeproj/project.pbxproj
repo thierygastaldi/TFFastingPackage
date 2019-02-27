@@ -16,9 +16,9 @@
 		66D2D35ADC5CF9CEF3F97AE54EB7CA63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		C28364EB88B70670EC2A4AD9364D2636 /* Pods-TFFastingPackage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5836B2AABF8B1B9B79CB26B7CE6B5B9 /* Pods-TFFastingPackage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5D03EF396ED0016462D7C9607D729C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		E579D62A1281E1A06E92950B255DE145 /* FPMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44858791218FA83662CAE4ADCB7EF8B6 /* FPMainViewController.swift */; };
-		ED07657265A326801492E6AFE33FAF98 /* FPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75B191D628C8D29E4464A4CC550E8A /* FPRouter.swift */; };
-		FBB5B0E4F027E475EFD80F853D9414D0 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 0C71CC664E7EA5F367E543A5C9A3EEEB /* Main.storyboard */; };
+		F052E723222712FD004BE8F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F052E720222712FC004BE8F5 /* Main.storyboard */; };
+		F052E724222712FD004BE8F5 /* FPMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F052E721222712FC004BE8F5 /* FPMainViewController.swift */; };
+		F052E725222712FD004BE8F5 /* FPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F052E722222712FC004BE8F5 /* FPRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,32 +42,29 @@
 		05EBFCF208C87F1B1106928C97E6DEA7 /* TFFastingPackage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TFFastingPackage.modulemap; sourceTree = "<group>"; };
 		06A4F4DDEA622F1F62CDB27DD653B4D9 /* Pods-TFFastingPackage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFFastingPackage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		095D04A7775F4B7E2770E9C3E74F53A4 /* Pods-TFFastingPackage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFFastingPackage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0C71CC664E7EA5F367E543A5C9A3EEEB /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = TFFastingPackage/Classes/Main.storyboard; sourceTree = "<group>"; };
 		111EF058C17A0CF1185D87AF90483BBA /* Pods-TFFastingPackage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFFastingPackage_Tests-resources.sh"; sourceTree = "<group>"; };
 		159BA2B7905BC4413CBF5D25203FB68F /* TFFastingPackage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFFastingPackage-umbrella.h"; sourceTree = "<group>"; };
 		18DB8AA18C14C81054E8D0DFCD4BA8D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AF81C53D3BAE99A6ACBA7DBD3DE694A /* TFFastingPackage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TFFastingPackage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1AF81C53D3BAE99A6ACBA7DBD3DE694A /* TFFastingPackage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TFFastingPackage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E2121F8E1F93128BAE0A6D926CAE6C8 /* Pods-TFFastingPackage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFFastingPackage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28F216A79E1CF36921B5DCE4B7393080 /* TFFastingPackage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFFastingPackage-prefix.pch"; sourceTree = "<group>"; };
 		2E326F4654EB1DE908015328106A184D /* TFFastingPackage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFFastingPackage.xcconfig; sourceTree = "<group>"; };
 		314C679E39346504A8B4E092099594EC /* Pods-TFFastingPackage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFFastingPackage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		43998A3426BC1AAB9319926926A73F4E /* Pods-TFFastingPackage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFFastingPackage_Tests-dummy.m"; sourceTree = "<group>"; };
-		44858791218FA83662CAE4ADCB7EF8B6 /* FPMainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPMainViewController.swift; path = TFFastingPackage/Classes/FPMainViewController.swift; sourceTree = "<group>"; };
-		449B7C7B1E1DD181AC0EBF9995DE3FAB /* Pods_TFFastingPackage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TFFastingPackage_Tests.framework; path = "Pods-TFFastingPackage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		449B7C7B1E1DD181AC0EBF9995DE3FAB /* Pods_TFFastingPackage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFFastingPackage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4519915756041E8A6014570111AA0F10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD0C7A64CDAEA04AA0BFBF9683F82FC /* Pods-TFFastingPackage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFFastingPackage_Example-resources.sh"; sourceTree = "<group>"; };
-		70050077287DCE44180FE2E858E671BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		70050077287DCE44180FE2E858E671BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		71C339CDC4E460A46ED33044B28DC645 /* Pods-TFFastingPackage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFFastingPackage_Tests.modulemap"; sourceTree = "<group>"; };
 		7E61A20A56A55697A028D3B268899251 /* Pods-TFFastingPackage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFFastingPackage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8B658FEC7A9B51E017E3A64146F69CE2 /* TFFastingPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TFFastingPackage.framework; path = TFFastingPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		904472E3E3E406C7A140EFEEB05E33AF /* Pods_TFFastingPackage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TFFastingPackage_Example.framework; path = "Pods-TFFastingPackage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B658FEC7A9B51E017E3A64146F69CE2 /* TFFastingPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TFFastingPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		904472E3E3E406C7A140EFEEB05E33AF /* Pods_TFFastingPackage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFFastingPackage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B55916AEB58649A6262747911F019E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0F5B6D5087C614DE99F494E2E285D9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A0F5B6D5087C614DE99F494E2E285D9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A109090351B9B594F0372963D0C2C91A /* Pods-TFFastingPackage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFFastingPackage_Example-dummy.m"; sourceTree = "<group>"; };
 		AB33D32507B4EBC78B8ECFF6D25F76A3 /* Pods-TFFastingPackage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFFastingPackage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AC5C04778BB462CF53BD637BDD558A16 /* Pods-TFFastingPackage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFFastingPackage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BA75B191D628C8D29E4464A4CC550E8A /* FPRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPRouter.swift; path = TFFastingPackage/Classes/FPRouter.swift; sourceTree = "<group>"; };
 		C94A8553346D15408731016276E30513 /* Pods-TFFastingPackage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFFastingPackage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D166B1E822C2F51E4D4BB1A464771FCA /* Pods-TFFastingPackage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFFastingPackage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D4B3CD4CB0BFD5E8463EB10627BD5455 /* Pods-TFFastingPackage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFFastingPackage_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -76,6 +73,9 @@
 		E10F46E4F8D8B9884B43D635B240E167 /* TFFastingPackage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFFastingPackage-dummy.m"; sourceTree = "<group>"; };
 		E800A56335688AFF58FB7904DE21FE1C /* Pods-TFFastingPackage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFFastingPackage_Example.modulemap"; sourceTree = "<group>"; };
 		E9ADD394818CBF4896CC2D3B0EABC266 /* Pods-TFFastingPackage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFFastingPackage_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F052E720222712FC004BE8F5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = TFFastingPackage/Classes/Main.storyboard; sourceTree = "<group>"; };
+		F052E721222712FC004BE8F5 /* FPMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FPMainViewController.swift; path = TFFastingPackage/Classes/FPMainViewController.swift; sourceTree = "<group>"; };
+		F052E722222712FC004BE8F5 /* FPRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FPRouter.swift; path = TFFastingPackage/Classes/FPRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,9 +152,6 @@
 		71CDDEC628B6729E4FAC7785FE1B9E65 /* TFFastingPackage */ = {
 			isa = PBXGroup;
 			children = (
-				44858791218FA83662CAE4ADCB7EF8B6 /* FPMainViewController.swift */,
-				BA75B191D628C8D29E4464A4CC550E8A /* FPRouter.swift */,
-				0C71CC664E7EA5F367E543A5C9A3EEEB /* Main.storyboard */,
 				A146B09D6610A4406491BB54CBDE372E /* Pod */,
 				835B46C41D098B2B903B43FC808652E4 /* Support Files */,
 			);
@@ -208,6 +205,7 @@
 		A146B09D6610A4406491BB54CBDE372E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				F052E7192227125F004BE8F5 /* Classes */,
 				70050077287DCE44180FE2E858E671BE /* LICENSE */,
 				A0F5B6D5087C614DE99F494E2E285D9D /* README.md */,
 				1AF81C53D3BAE99A6ACBA7DBD3DE694A /* TFFastingPackage.podspec */,
@@ -231,6 +229,16 @@
 				8B658FEC7A9B51E017E3A64146F69CE2 /* TFFastingPackage.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F052E7192227125F004BE8F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F052E721222712FC004BE8F5 /* FPMainViewController.swift */,
+				F052E722222712FC004BE8F5 /* FPRouter.swift */,
+				F052E720222712FC004BE8F5 /* Main.storyboard */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +335,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					A63633960976E8951680FEC6CD876A85 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -366,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F052E723222712FD004BE8F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,9 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E579D62A1281E1A06E92950B255DE145 /* FPMainViewController.swift in Sources */,
-				ED07657265A326801492E6AFE33FAF98 /* FPRouter.swift in Sources */,
-				FBB5B0E4F027E475EFD80F853D9414D0 /* Main.storyboard in Sources */,
 				0E1C72873670EA060697EFE0AAF429F9 /* TFFastingPackage-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +399,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				12D1076613F8FA10F7E07ADB76AFC6C1 /* Pods-TFFastingPackage_Example-dummy.m in Sources */,
+				F052E725222712FD004BE8F5 /* FPRouter.swift in Sources */,
+				F052E724222712FD004BE8F5 /* FPMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +435,7 @@
 			baseConfigurationReference = 7E61A20A56A55697A028D3B268899251 /* Pods-TFFastingPackage_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -444,6 +458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -605,8 +620,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -682,6 +696,7 @@
 			baseConfigurationReference = 095D04A7775F4B7E2770E9C3E74F53A4 /* Pods-TFFastingPackage_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -704,6 +719,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
