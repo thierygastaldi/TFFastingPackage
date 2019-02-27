@@ -1,0 +1,6 @@
+framework module TFFastingPackage {
+  umbrella header "TFFastingPackage-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TFFastingPackage (0.1.0)
+
+DEPENDENCIES:
+  - TFFastingPackage (from `../`)
+
+EXTERNAL SOURCES:
+  TFFastingPackage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TFFastingPackage: 9a98e422f3f8f5d83c0efad71b43063431670a18
+
+PODFILE CHECKSUM: 22739fdd462c58762cdd7c9f63c7ba479b03c0cc
+
+COCOAPODS: 1.5.3

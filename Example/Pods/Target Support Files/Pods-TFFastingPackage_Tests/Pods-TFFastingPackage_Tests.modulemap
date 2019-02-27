@@ -1,0 +1,6 @@
+framework module Pods_TFFastingPackage_Tests {
+  umbrella header "Pods-TFFastingPackage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

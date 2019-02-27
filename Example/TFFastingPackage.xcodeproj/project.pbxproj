@@ -42,9 +42,9 @@
 		607FACE51AFB9204008FA782 /* TFFastingPackage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFFastingPackage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		65A565D7FE20C2D36E4428DC /* TFFastingPackage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TFFastingPackage.podspec; path = ../TFFastingPackage.podspec; sourceTree = "<group>"; };
-		901E08F8048891FF8C8D23BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A7D6121D8C26447617BDDA19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		65A565D7FE20C2D36E4428DC /* TFFastingPackage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TFFastingPackage.podspec; path = ../TFFastingPackage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		901E08F8048891FF8C8D23BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A7D6121D8C26447617BDDA19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BAB0267B164FA6D561C270DD /* Pods-TFFastingPackage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFFastingPackage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TFFastingPackage_Example/Pods-TFFastingPackage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FF1BF59D95C1FBDFF2F65ECA /* Pods-TFFastingPackage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFFastingPackage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFFastingPackage_Tests/Pods-TFFastingPackage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
