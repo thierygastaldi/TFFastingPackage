@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  TFFastingPackage: 33d42cfaf9b7114b78396f8f58804170b4ef9fce
+  TFFastingPackage: ef70ce7e2f375fd263eb729ba3e5fc81454ccb1d
 
 PODFILE CHECKSUM: a8df2ef6e5d1db7cb1b6b3ad9133151216a466f0
 
