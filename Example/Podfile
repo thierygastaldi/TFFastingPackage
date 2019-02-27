@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TFFastingPackage_Example' do
+  pod 'TFFastingPackage', :path => '../'
+
+  target 'TFFastingPackage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
