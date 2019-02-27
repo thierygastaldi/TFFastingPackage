@@ -9,7 +9,7 @@ import Foundation
 
 class FPRouter {
     static func createFastingPackageModule() -> UIViewController {
-        let mainViewController = mainStoryboard.instantiateViewController(withIdentifier: "MainViewController")
+        let mainViewController = mainStoryboard.instantiateViewController(withIdentifier: "FPMainViewController")
         return mainViewController
     }
     
