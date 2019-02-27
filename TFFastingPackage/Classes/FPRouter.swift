@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class FPRouter {
     static func createFastingPackageModule() -> UIViewController {
