@@ -1,5 +1,4 @@
 import XCTest
-import TFFastingPackage
 
 class Tests: XCTestCase {
     

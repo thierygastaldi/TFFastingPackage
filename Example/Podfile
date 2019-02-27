@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'TFFastingPackage_Example' do
-  pod 'TFFastingPackage', :path => '../'
+  pod 'TFFastingPackage', :path => 'https://github.com/thierygastaldi/fastingpod'
 
   target 'TFFastingPackage_Tests' do
     inherit! :search_paths
