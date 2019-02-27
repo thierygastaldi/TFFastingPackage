@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Router {
+class FPRouter {
     static func createFastingPackageModule() -> UIViewController {
         let mainViewController = mainStoryboard.instantiateViewController(withIdentifier: "MainViewController")
         return mainViewController

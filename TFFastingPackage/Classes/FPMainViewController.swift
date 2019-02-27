@@ -15,7 +15,7 @@ struct DynamicTab {
     let badge: String?
 }
 
-class MainViewController: UITabBarController {
+class FPMainViewController: UITabBarController {
     
     var controllers : [UINavigationController] = []
 
